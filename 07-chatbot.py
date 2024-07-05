@@ -1,8 +1,6 @@
 import streamlit as st
 from langchain_openai import ChatOpenAI
-from dotenv import load_dotenv
 
-load_dotenv()
 
 # ChatOpenAI 모델 초기화
 chat = ChatOpenAI(temperature=0)
